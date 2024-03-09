@@ -1,0 +1,123 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+Body {
+    Font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    Margin: 0;
+    Padding: 50;
+    align-items: center;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+  }
+  
+  header {
+    Background-color: #333;
+    Color: #fff;
+    Padding: 10px;
+  }
+
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10%;
+    text-align: center;
+  }
+
+nav ul{
+    list-style: none;
+    margin: 50%;
+    padding: 10%;
+    display: flex;
+
+}
+
+div{
+    padding: 20px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    align-items: center;
+    padding: 20px;
+}
+
+p{
+    padding: 20px;
+    font-size: 20px;
+    font-family: cursive;
+}
+  img {
+     max-width: 50%;
+     height: 50%;
+     align-items: center;
+  }
+  
+
+  h3 {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .image-class {
+width: 200px;
+height: auto;
+border-radius: 10px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  Nav ul {
+    List-style-type: none;
+    Margin: 0;
+    Padding: 0;
+  }
+  
+  Nav ul li {
+    Display: inline;
+    Margin-right: 20px;
+  }
+  
+  Nav ul li a {
+    Color: #fff;
+    Text-decoration: none;
+  }
+  
+  .main-content {
+    Padding: 20px;
+  }
+  
+  H1 {
+    Color: #333;
+  }
+  
+  P {
+    Color: #666;
+  }
+
+  .student {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 20%;
+  }
+
+  .div-class {
+    max-width: 50%;
+    max-height: 20%;
+  }
+  
+@media(max-width:600px) {
+    .container {
+        flex-direction: row;
+        margin: 20%;
+                }
+}
